@@ -1,0 +1,9 @@
+.card {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 350px;
+}
+.details span {
+    font-weight: lighter;
+}

@@ -1,0 +1,22 @@
+<header class="container">
+    <nav class="main-header main-header__nav">
+        <ul class="main-header__item-list">
+            <li class="main-header__item">
+                <a href="/"><img src="/img/logo.jpg"></a>
+            </li>
+            <li class="main-header__item style">
+                <a class="<%= path === '/' ? 'active' : '' %>" href="/">Home</a>
+            </li>
+            <li class="main-header__item style">
+                <a class="<%= path === '/news' ? 'active' : '' %>" href="/news">News</a>
+            </li>
+            <li class="main-header__item style">
+                <a class="<%= path === '/support' ? 'active' : '' %>" href="/support">Support</a>
+            </li>
+            <li class="main-header__item style">
+                <a class="<%= path === '/info' ? 'active' : '' %>" href="/info">Info</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+

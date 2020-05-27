@@ -1,0 +1,69 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  .form-control {
+    margin: 2rem 0;
+    
+  }
+  
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline-color: #00695c;
+  }
+
+  .product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .btn {
+     margin-left: 40%;
+  }
+
+  .column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }  
+
+  .column h3 span {
+    font-weight: lighter;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .date {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .place h3{
+    display: inline;
+  }
+
+  .icon {
+    text-align: center;
+  }

@@ -1,0 +1,22 @@
+  .column {
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+  }  
+
+  .column h3 span {
+    font-weight: lighter;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
