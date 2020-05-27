@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
+const port = process.env || 3000;
 
 
 const weatherData = require('../utils/weatherData');
@@ -84,4 +85,4 @@ app.use('*', (req, res) => {
 
 
 
-app.listen(3000);
+app.listen(port);
