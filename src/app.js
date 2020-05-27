@@ -3,6 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
 
+
 const weatherData = require('../utils/weatherData');
 
 app.set('view engine', 'ejs');
